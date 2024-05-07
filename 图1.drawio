@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T06:06:48.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="cMBXQNuDSHABx_Hmhz_J" type="github">
-  <diagram name="第 1 页" id="-MSdcO51tModp90iOSPS">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-05-07T06:15:55.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LkEYAde0rQrgwtHX8nTj" version="24.3.1" type="github">
+  <diagram name="robot" id="-MSdcO51tModp90iOSPS">
+    <mxGraphModel dx="783" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3lgEny196ou4FjKal_tl-1" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="610" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="185" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="3lgEny196ou4FjKal_tl-2" parent="1" target="3lgEny196ou4FjKal_tl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-4" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-7" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3lgEny196ou4FjKal_tl-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="3lgEny196ou4FjKal_tl-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
