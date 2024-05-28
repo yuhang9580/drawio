@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T07:45:46.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.3.1" etag="8M2de5ouru2xreQEdvMB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T08:12:20.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="U6NgEWuDDK7bjU7A0IiD" version="24.3.1" type="github">
   <diagram name="第 1 页" id="ynSyun7Jrig-16OEIuBR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-32" value="2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-28" target="Uyb-lCwGTTEA9483NnbG-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-35" value="100" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-28" target="Uyb-lCwGTTEA9483NnbG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-28" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-33" value="3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-29" target="Uyb-lCwGTTEA9483NnbG-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-29" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-34" value="4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-30" target="Uyb-lCwGTTEA9483NnbG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-30" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-31" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="394" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;场景1&lt;/h1&gt;&lt;p&gt;寻找从A到D的最短路径&lt;/p&gt;&lt;p&gt;1. 第一次迭代:&lt;/p&gt;&lt;p&gt;- 找到离A最近, 且未经过处理的点, 找到点A&lt;/p&gt;&lt;p&gt;- 更新A的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[B] = min(∞,2) //更新为A到B的距离&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(∞, 100) //更新为A到D的距离&lt;/p&gt;&lt;p&gt;- 标记A为已处理&lt;/p&gt;&lt;p&gt;2. 第二次迭代:&lt;/p&gt;&lt;p&gt;- 找到离A最近, 并且未经处理的点, 找到B&lt;/p&gt;&lt;p&gt;- 更新B的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[C] = min(∞, 3+2) = 6 //更新为B到C的距离&lt;/p&gt;&lt;p&gt;- 标记B为已处理&lt;/p&gt;&lt;p&gt;3. 第三次迭代:&lt;/p&gt;&lt;p&gt;- 找到离B最近, 且未经过处理的点, 找到C&lt;/p&gt;&lt;p&gt;- 更新C的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(100, 6+4) = 10 //更新C到D的距离&lt;/p&gt;&lt;p&gt;- C为已处理&lt;/p&gt;&lt;p&gt;4. 第四次迭代:&lt;/p&gt;&lt;p&gt;- 找到离C最近, 且未经过处理的点, 找到D 显然D[D] = 10&lt;/p&gt;&lt;p&gt;- 标记D为已处理&lt;/p&gt;&lt;p&gt;5. 最终结果:&lt;/p&gt;&lt;p&gt;D[D] = 10, 从A到D的最短路径距离为10&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="470" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-50" value="2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-46" target="Uyb-lCwGTTEA9483NnbG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-53" value="7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-46" target="Uyb-lCwGTTEA9483NnbG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-46" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1030" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-51" value="3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-47" target="Uyb-lCwGTTEA9483NnbG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-47" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1030" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-52" value="4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.325;exitY=1.05;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-48" target="Uyb-lCwGTTEA9483NnbG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-48" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1030" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-49" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1140" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;场景2&lt;/h1&gt;&lt;p&gt;寻找从A到D的最短路径&lt;/p&gt;&lt;p&gt;1. 第一次迭代:&lt;/p&gt;&lt;p&gt;- 找到离A最近, 且未经过处理的点, 找到点A&lt;/p&gt;&lt;p&gt;- 更新A的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[B] = min(∞,2) = 2 //更新为A到B的距离&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(∞, 7) = 7 //更新为A到D的距离&lt;/p&gt;&lt;p&gt;- 将A标记为已处理&lt;/p&gt;&lt;p&gt;2. 第二次迭代:&lt;/p&gt;&lt;p&gt;- 找到离A最近, 且未经过处理的点, 找到点B&lt;/p&gt;&lt;p&gt;- 更新B的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[C] = min(∞, 5) =5 //更新为B到C的距离&lt;/p&gt;&lt;p&gt;- 将B标记为已处理&lt;/p&gt;&lt;p&gt;3. 第三次迭代:&lt;/p&gt;&lt;p&gt;- 找到离B最近, 且未经过处理的点, 找到C&lt;/p&gt;&lt;p&gt;- 更新C的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(∞, 5+4) = 9 //更新为C到D的距离&lt;/p&gt;&lt;p&gt;- 将C标记为已处理&lt;/p&gt;&lt;p&gt;4. 第四次迭代:&lt;/p&gt;&lt;p&gt;- 找到&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="780" width="470" height="640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
