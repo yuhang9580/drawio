@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T09:01:49.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="uhpKQtcFyRj7CcacB6qt" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T06:04:15.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dWPVTQ3l8gVMqQZk-s1S" version="24.3.1" type="github">
   <diagram name="第 1 页" id="ynSyun7Jrig-16OEIuBR">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,6 +100,49 @@
         </mxCell>
         <mxCell id="Uyb-lCwGTTEA9483NnbG-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;场景3&lt;/h1&gt;&lt;p&gt;寻找从A到D的最短路径&lt;/p&gt;&lt;p&gt;1. 第一次迭代&lt;/p&gt;&lt;p&gt;- 寻找离A最近且未经处理的点, 找到点A&lt;/p&gt;&lt;p&gt;- 更新A的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[B] = min(∞, 2) = 2 //更新为A到B的距离&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(∞,20) = 20 //更新为A到D的距离&lt;/p&gt;&lt;p&gt;- 将A标记为已处理&lt;/p&gt;&lt;p&gt;2. 第二次迭代:&lt;/p&gt;&lt;p&gt;- 寻找离A最近且未经过处理的点, 找到点B&lt;/p&gt;&lt;p&gt;- 更新B的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[C] = min(∞, 2+3) = 5 //更新为B到C的距离&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[E] = min(∞, 2+1) = 3 //更新为B到E的距离&lt;/p&gt;&lt;p&gt;- 将B标记为已处理&lt;/p&gt;&lt;p&gt;3. 第三次迭代:&lt;/p&gt;&lt;p&gt;- 寻找离B最近, 且未经过处理的点, 找到E&lt;/p&gt;&lt;p&gt;- 更新E的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(20, 3+5) = 8 //更新为E到D的距离&lt;/p&gt;&lt;p&gt;- 将E标记为已处理&lt;/p&gt;&lt;p&gt;4. 第四次迭代:&lt;/p&gt;&lt;p&gt;- 寻找离E最近, 且未经过处理的点, 找到点C&lt;/p&gt;&lt;p&gt;- 更新C的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(8, 9) = 8 //保持E到D的距离&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="1460" width="470" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-77" value="2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-79" target="Uyb-lCwGTTEA9483NnbG-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-78" value="20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-79" target="Uyb-lCwGTTEA9483NnbG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-79" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-80" value="3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-82" target="Uyb-lCwGTTEA9483NnbG-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-81" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-82" target="Uyb-lCwGTTEA9483NnbG-88">
+          <mxGeometry x="0.0088" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-82" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-83" value="4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.325;exitY=1.05;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-84" target="Uyb-lCwGTTEA9483NnbG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-84" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-85" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2520" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-86" value="5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-88" target="Uyb-lCwGTTEA9483NnbG-85">
+          <mxGeometry x="0.0081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-87" value="2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uyb-lCwGTTEA9483NnbG-88" target="Uyb-lCwGTTEA9483NnbG-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-88" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyb-lCwGTTEA9483NnbG-89" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;场景4&lt;/h1&gt;&lt;p&gt;寻找从B到D的最短路径, 需要符合代码逻辑, 要标注清除类&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. 第一次迭代:&lt;/p&gt;&lt;p&gt;- 找出与B最近, 且未经过处理的点, 找到点B&lt;/p&gt;&lt;p&gt;- 更新B的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[C] = min(∞, 3) = 3&lt;/p&gt;&lt;p&gt;&amp;nbsp; Map&amp;lt;String, List&amp;lt;PositionLinkResource&amp;gt;&amp;gt; key是起点_邻居, value是和其他比较算出来的最短路径的集合.&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[E] = min(∞, 1) = 1&lt;/p&gt;&lt;p&gt;- 将B标记为已处理&lt;/p&gt;&lt;p&gt;2. 第二次迭代:&lt;/p&gt;&lt;p&gt;- 找出与B最近且未经过处理的点, 找到点E&lt;/p&gt;&lt;p&gt;- 更新E的邻居&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[C] = min(2,3+3) = 2&lt;/p&gt;&lt;p&gt;&amp;nbsp; D[D] = min(∞, )&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2160" width="470" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
