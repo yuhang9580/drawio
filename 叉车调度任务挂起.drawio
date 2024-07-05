@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T07:37:57.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="S4a2Ewl-LLNmpk2X_H4b" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T08:02:48.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="sE6GX1l5KCmXcJ71Wvdp" version="24.5.5" type="github">
   <diagram name="第 1 页" id="TYbBux3vYnH0GDJGGeoD">
     <mxGraphModel dx="1420" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-2" value="叉车到达起点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="250" width="120" height="80" as="geometry" />
+          <mxGeometry x="80" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-3" target="FvmNlbQ68e-W1lKiAxiE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-3" value="MCS校验状态, 并发起对接流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-5" target="FvmNlbQ68e-W1lKiAxiE-7">
           <mxGeometry relative="1" as="geometry" />
@@ -23,25 +23,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-5" value="PLC状态满足, 并且响应成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="520" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="310" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-6" target="FvmNlbQ68e-W1lKiAxiE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-6" value="任务挂起" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-7" target="FvmNlbQ68e-W1lKiAxiE-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-7" value="AGV到达终点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-8" target="FvmNlbQ68e-W1lKiAxiE-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-8" value="MCS校验状态并发起对接流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-9" target="FvmNlbQ68e-W1lKiAxiE-12">
           <mxGeometry relative="1" as="geometry" />
@@ -50,20 +50,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-9" value="PLC状态满足, 并且响应成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="950" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FvmNlbQ68e-W1lKiAxiE-10" target="FvmNlbQ68e-W1lKiAxiE-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="850" />
+              <mxPoint x="430" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-10" value="任务挂起" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmNlbQ68e-W1lKiAxiE-12" value="物料转运完成, 任务成功" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1110" width="120" height="80" as="geometry" />
+          <mxGeometry x="80" y="900" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
