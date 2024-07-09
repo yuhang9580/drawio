@@ -1,23 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T02:14:28.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="W2eO2s0P0QVbetUW2BeG" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-09T02:37:39.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hFi6loJfFbk9CUzstF9P" version="24.6.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="788" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="0wKyU0hb861yDEEXM_V6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0wKyU0hb861yDEEXM_V6-0" target="0wKyU0hb861yDEEXM_V6-1">
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0wKyU0hb861yDEEXM_V6-0" target="hg8JVZloqwf6RsZt8wMP-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0wKyU0hb861yDEEXM_V6-0" value="点击系统开关的开启/关闭开关" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="195" y="90" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0wKyU0hb861yDEEXM_V6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0wKyU0hb861yDEEXM_V6-1" target="0wKyU0hb861yDEEXM_V6-2">
+        <mxCell id="0wKyU0hb861yDEEXM_V6-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="202.5" y="420" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hg8JVZloqwf6RsZt8wMP-0" target="hg8JVZloqwf6RsZt8wMP-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0wKyU0hb861yDEEXM_V6-1" value="将redis中的值取反, 存入reids" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hg8JVZloqwf6RsZt8wMP-0" target="hg8JVZloqwf6RsZt8wMP-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0wKyU0hb861yDEEXM_V6-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="202.5" y="340" width="75" height="50" as="geometry" />
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-0" value="是否是打开开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="187.5" y="190" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hg8JVZloqwf6RsZt8wMP-2" target="0wKyU0hb861yDEEXM_V6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-2" value="redis存入开关对应的键值对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hg8JVZloqwf6RsZt8wMP-3" target="0wKyU0hb861yDEEXM_V6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="420" y="370" />
+              <mxPoint x="240" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hg8JVZloqwf6RsZt8wMP-3" value="redis删除开关对应的键值对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="185" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
